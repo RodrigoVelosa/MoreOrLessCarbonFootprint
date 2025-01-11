@@ -1,0 +1,52 @@
+{
+	"products": [
+		{
+			"footprint": 4.45,
+			"image": "pork",
+			"name": "Pork",
+			"source": "SE"
+		},
+		{
+			"footprint": 31.1,
+			"image": "beef",
+			"name": "Beef",
+			"source": "SE"
+		},
+		{
+			"footprint": 22.9,
+			"image": "minced_beef",
+			"name": "Minced beef",
+			"source": "SE"
+		},
+		{
+			"footprint": 21.2,
+			"image": "meatballs",
+			"name": "Meatballs",
+			"source": "SE"
+		},
+		{
+			"footprint": 0.69,
+			"image": "frozen_berries",
+			"name": "Frozen berries",
+			"source": "SE"
+		},
+		{
+			"footprint": 2.5,
+			"image": "cereal1",
+			"name": "Brown rice flour",
+			"source": "SE"
+		},
+		{
+			"footprint": 1.01,
+			"image": "beer_can",
+			"name": "Beer can 33 cl",
+			"source": "SE"
+		},
+		{
+			"footprint": 4.34,
+			"image": "bottle1",
+			"name": "Gin. Glass bottle, 70 cl.",
+			"source": "SE"
+		}
+	]
+}

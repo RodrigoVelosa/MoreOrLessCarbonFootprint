@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=3 uid="uid://c1nig4ftdk7v8"]
+
+[ext_resource type="Script" path="res://Scenes/game_over.gd" id="1_p6v0j"]
+[ext_resource type="PackedScene" uid="uid://drfslvfw70xi6" path="res://Scenes/GameScene.tscn" id="2_rxcqi"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_kiwo0"]
+font_size = 60
+
+[sub_resource type="LabelSettings" id="LabelSettings_stdcv"]
+font_size = 30
+
+[node name="GameOver" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_p6v0j")
+back_scene = ExtResource("2_rxcqi")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.00133334
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="GameOverLabel" type="Label" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "Game Over"
+label_settings = SubResource("LabelSettings_kiwo0")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScoreLabel" type="Label" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_stdcv")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_bottom = 20
+metadata/_edit_use_anchors_ = true
+
+[node name="ContinueLabel" type="Label" parent="MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+text = "Press space to continue"
+horizontal_alignment = 1

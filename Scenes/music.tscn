@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://fr5ktqu5mqnm"]
+
+[ext_resource type="AudioStream" uid="uid://w7j45dbj16n6" path="res://Audio/Music/Cool-Puzzle-Groovin-2.mp3" id="1_kjkpy"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_kjkpy")
+autoplay = true
+bus = &"Music"
