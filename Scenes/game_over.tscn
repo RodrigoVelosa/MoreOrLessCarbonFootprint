@@ -1,13 +1,23 @@
-[gd_scene load_steps=5 format=3 uid="uid://c1nig4ftdk7v8"]
+[gd_scene load_steps=7 format=3 uid="uid://c1nig4ftdk7v8"]
 
 [ext_resource type="Script" path="res://Scenes/game_over.gd" id="1_p6v0j"]
 [ext_resource type="PackedScene" uid="uid://drfslvfw70xi6" path="res://Scenes/GameScene.tscn" id="2_rxcqi"]
+[ext_resource type="PackedScene" uid="uid://5tytdmxk4h7f" path="res://Scenes/menu.tscn" id="3_8hfkg"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_kiwo0"]
 font_size = 60
+font_color = Color(0, 0, 0, 1)
+outline_size = 5
+outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_stdcv"]
 font_size = 30
+font_color = Color(0, 0, 0, 1)
+outline_size = 2
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_3wbvv"]
+font_color = Color(0, 0, 0, 1)
 
 [node name="GameOver" type="Control"]
 layout_mode = 3
@@ -18,6 +28,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_p6v0j")
 back_scene = ExtResource("2_rxcqi")
+main_menu_scene = ExtResource("3_8hfkg")
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 1
@@ -58,5 +69,6 @@ metadata/_edit_use_anchors_ = true
 [node name="ContinueLabel" type="Label" parent="MarginContainer"]
 layout_mode = 2
 size_flags_vertical = 8
-text = "Press space to continue"
+text = "Press [Space] to continue, [ESC] to main menu "
+label_settings = SubResource("LabelSettings_3wbvv")
 horizontal_alignment = 1

@@ -1,16 +1,43 @@
-[gd_scene load_steps=6 format=3 uid="uid://drfslvfw70xi6"]
+[gd_scene load_steps=9 format=3 uid="uid://drfslvfw70xi6"]
 
 [ext_resource type="Script" path="res://Scenes/GameController.gd" id="1_j3g02"]
 [ext_resource type="PackedScene" uid="uid://rf0b77qgwcqn" path="res://Scenes/product.tscn" id="2_cs63u"]
 [ext_resource type="PackedScene" uid="uid://bc7sl6v5talp4" path="res://Scenes/score.tscn" id="3_hc1im"]
 [ext_resource type="AudioStream" uid="uid://blqg4qhv3hkde" path="res://Audio/Effects/Victory-bells-chords-success-sound-effect.mp3" id="4_hl3ue"]
 [ext_resource type="AudioStream" uid="uid://glauq452yvbn" path="res://Audio/Effects/game_over.wav" id="5_ha5cu"]
+[ext_resource type="Texture2D" uid="uid://loc65q580t48" path="res://circle-success.png" id="6_f4rd2"]
+[ext_resource type="Texture2D" uid="uid://jwsjq35mgqob" path="res://circle-failure.png" id="7_mb0mk"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_cisdi"]
+font_color = Color(0, 0, 0, 1)
 
 [node name="GameScene" type="Node2D" node_paths=PackedStringArray("product1", "product2", "score")]
 script = ExtResource("1_j3g02")
 product1 = NodePath("Product1")
 product2 = NodePath("Product2")
 score = NodePath("Score")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -576.0
+offset_top = -325.0
+offset_right = 578.0
+offset_bottom = 324.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 6
+size_flags_vertical = 3
+theme_override_constants/margin_bottom = 20
+
+[node name="ContinueLabel" type="Label" parent="MarginContainer"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+text = "Press [Space] to continue"
+label_settings = SubResource("LabelSettings_cisdi")
 
 [node name="Camera" type="Camera2D" parent="."]
 
@@ -29,3 +56,11 @@ bus = &"SFX"
 
 [node name="FailureSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("5_ha5cu")
+
+[node name="SuccessSprite" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("6_f4rd2")
+
+[node name="FailureSprite" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("7_mb0mk")

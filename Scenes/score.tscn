@@ -1,6 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://bc7sl6v5talp4"]
+[gd_scene load_steps=4 format=3 uid="uid://bc7sl6v5talp4"]
 
 [ext_resource type="Script" path="res://Scenes/score.gd" id="1_mg05n"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_dd2e7"]
+font_size = 18
+font_color = Color(0, 0, 0, 1)
+outline_size = 1
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_fgxkl"]
+font_size = 18
+font_color = Color(0, 0, 0, 1)
+outline_size = 1
+outline_color = Color(0, 0, 0, 1)
 
 [node name="Score" type="Node2D"]
 script = ExtResource("1_mg05n")
@@ -16,6 +28,7 @@ size_flags_horizontal = 4
 size_flags_vertical = 0
 text = "
 "
+label_settings = SubResource("LabelSettings_dd2e7")
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -23,5 +36,6 @@ vertical_alignment = 1
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 0
+label_settings = SubResource("LabelSettings_fgxkl")
 horizontal_alignment = 1
 vertical_alignment = 1

@@ -6,21 +6,19 @@
 
 [sub_resource type="LabelSettings" id="LabelSettings_geokm"]
 font_size = 30
-font_color = Color(0.808998, 0.808998, 0.808998, 1)
+font_color = Color(0, 0, 0, 1)
 outline_size = 3
 outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_db7bt"]
-font_size = 20
-font_color = Color(0.914971, 0.561198, 0.450373, 1)
-outline_size = 3
-outline_color = Color(0, 0, 0, 1)
+font_size = 18
+font_color = Color(0.812098, 0.274831, 0.255398, 1)
+outline_color = Color(0.811765, 0.27451, 0.254902, 1)
 
 [sub_resource type="LabelSettings" id="LabelSettings_mnpy2"]
-font_size = 20
-font_color = Color(0.839521, 0.952651, 0.624313, 1)
-outline_size = 3
-outline_color = Color(0, 0, 0, 1)
+font_size = 18
+font_color = Color(0.604689, 0.738817, 0.292812, 1)
+outline_color = Color(0.603922, 0.737255, 0.294118, 1)
 
 [node name="Product" type="Node2D"]
 script = ExtResource("1_0xqwd")
@@ -28,49 +26,42 @@ script = ExtResource("1_0xqwd")
 [node name="Sprite" type="Sprite2D" parent="."]
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("2_q6kn7")
-metadata/_edit_lock_ = true
 
 [node name="Name" type="Label" parent="."]
-offset_left = -55.0
-offset_top = 194.0
-offset_right = 83.0
-offset_bottom = 217.0
+offset_left = -129.0
+offset_top = 187.0
+offset_right = 129.0
+offset_bottom = 229.0
 text = "Nome do produto"
 label_settings = SubResource("LabelSettings_geokm")
 horizontal_alignment = 1
 vertical_alignment = 1
-metadata/_edit_lock_ = true
 
 [node name="FootprintLabelWrong" type="Label" parent="."]
-offset_left = -55.0
-offset_top = 230.0
-offset_right = 83.0
-offset_bottom = 272.0
-rotation = -0.00545746
+offset_left = -129.0
+offset_top = 240.0
+offset_right = 129.0
+offset_bottom = 268.0
 label_settings = SubResource("LabelSettings_db7bt")
 horizontal_alignment = 1
 vertical_alignment = 1
-metadata/_edit_lock_ = true
 
 [node name="FootprintLabelCorrect" type="Label" parent="."]
-offset_left = -55.0
-offset_top = 230.0
-offset_right = 83.0
-offset_bottom = 272.0
-rotation = -0.00834783
+offset_left = -129.0
+offset_top = 240.0
+offset_right = 129.0
+offset_bottom = 268.0
 label_settings = SubResource("LabelSettings_mnpy2")
 horizontal_alignment = 1
 vertical_alignment = 1
-metadata/_edit_lock_ = true
 
 [node name="Button" type="Button" parent="."]
-offset_left = -159.0
-offset_top = -159.0
-offset_right = 156.0
-offset_bottom = 159.0
+offset_left = -151.0
+offset_top = -160.0
+offset_right = 153.0
+offset_bottom = 162.0
 focus_mode = 0
 flat = true
 script = ExtResource("2_wclhy")
-metadata/_edit_lock_ = true
 
 [connection signal="button_up" from="Button" to="Button" method="_on_button_up"]

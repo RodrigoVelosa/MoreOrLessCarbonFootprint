@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjkukf35ck5ht"
-path="res://.godot/imported/bottled_water.webp-15dee28ec0432db74d92689c17b8c835.ctex"
+uid="uid://hf70k7mjdik0"
+path="res://.godot/imported/herbs1.webp-d0539cb9c88f41d82bb5c28f685b83e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://ProductImages/bottled_water.webp"
-dest_files=["res://.godot/imported/bottled_water.webp-15dee28ec0432db74d92689c17b8c835.ctex"]
+source_file="res://ProductImages/herbs1.webp"
+dest_files=["res://.godot/imported/herbs1.webp-d0539cb9c88f41d82bb5c28f685b83e4.ctex"]
 
 [params]
 

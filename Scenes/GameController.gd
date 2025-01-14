@@ -35,11 +35,17 @@ func product_chose(product):
 	wrong_product.footprint_label_wrong.show()
 	
 	if (product == correct_product):
-		score.increment()
+		$SuccessSprite.visible = true
 		$SuccessSound.play()
+		$MarginContainer/ContinueLabel.visible = true
+		score.increment()
 	else:
-		Global.state = "game_over"
 		$FailureSound.play()
+		$FailureSprite.visible = true
+		Global.state = "awaiting_game_over"
+		await get_tree().create_timer(1.5).timeout
+		Global.state = "game_over"
+		$MarginContainer/ContinueLabel.visible = true
 		
 func new_products() -> void:
 	var range = len(json_data.products) - 1
@@ -67,6 +73,10 @@ func new_products() -> void:
 	product2.reset()
 	
 	process_correct_product()
+	
+	$SuccessSprite.visible = false
+	$FailureSprite.visible = false
+	$MarginContainer/ContinueLabel.visible = false
 	
 	Global.state = "choosing"
 
