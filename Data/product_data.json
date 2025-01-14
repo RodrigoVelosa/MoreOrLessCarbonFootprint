@@ -4,535 +4,631 @@
 			"footprint": 4.45,
 			"image": "pork",
 			"name": "Pork",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/79714664721"
 		},
 		{
 			"footprint": 31.1,
 			"image": "beef",
 			"name": "Beef",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/80130344882"
 		},
 		{
 			"footprint": 22.9,
 			"image": "minced_beef",
 			"name": "Minced beef",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152394742102"
 		},
 		{
 			"footprint": 21.2,
 			"image": "meatballs",
 			"name": "Meatballs",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/155176601641"
 		},
 		{
 			"footprint": 0.69,
 			"image": "frozen_berries",
 			"name": "Frozen berries",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151563381780"
 		},
 		{
 			"footprint": 2.5,
 			"image": "cereal1",
 			"name": "Brown rice flour",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152426717499"
 		},
 		{
 			"footprint": 1.01,
 			"image": "beer_can",
 			"name": "Beer can 33 cl",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153002274645"
 		},
 		{
 			"footprint": 4.34,
 			"image": "bottle1",
 			"name": "Gin. Glass bottle, 70 cl.",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153354004012"
 		},
 		{
 			"footprint": 4.16,
 			"image": "bottle1",
 			"name": "Vodka 40% ABV. Glass bottle, 70 cl.",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/3607080584776"
 		},
 		{
 			"footprint": 7.16,
 			"image": "salami",
 			"name": "Salami",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/158406116738"
 		},
 		{
 			"footprint": 0.47,
 			"image": "deer_meat",
 			"name": "Fallow deer meat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/155496355611"
 		},
 		{
 			"footprint": 0.54,
 			"image": "crushed_tomatoes",
 			"name": "Crushed tomatoes, in box",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151787209559"
 		},
 		{
 			"footprint": 6.00,
 			"image": "herbs1",
 			"name": "Herbs in pot, fresh, greenhouse grown",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/156551543712"
 		},
 		{
 			"footprint": 2.88,
 			"image": "spice_jar1",
 			"name": "Spice mix",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/156327715933"
 		},
 		{
 			"footprint": 25.9,
 			"image": "lamb_meat",
 			"name": "Lamb meat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/155720183390"
 		},
 		{
 			"footprint": 1.42,
 			"image": "cornmeal",
 			"name": "Cornmeal",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152362766705"
 		},
 		{
 			"footprint": 1.60,
 			"image": "tomatoes",
 			"name": "Tomatoes, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151851160353"
 		},
 		{
 			"footprint": 7.27,
 			"image": "langoustine",
 			"name": "Langoustine, whole",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153609807188"
 		},
 		{
 			"footprint": 2.19,
 			"image": "bottle2",
 			"name": "Red wine, 0.75L glass bottle",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153290053218"
 		},
 		{
 			"footprint": 1.09,
 			"image": "milk",
 			"name": "Milk 0.4% fat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153897585761"
 		},
 		{
 			"footprint": 65.7,
 			"image": "filet_mignon",
 			"name": "Beef, filet mignon",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/154824872274"
 		},
 		{
 			"footprint": 10.3,
 			"image": "canned_tuna",
 			"name": "Canned tuna",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153769684173"
 		},
 		{
 			"footprint": 3.07,
 			"image": "rice1",
 			"name": "Jasmine rice",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152970299248"
 		},
 		{
 			"footprint": 1.77,
 			"image": "bell_peppers",
 			"name": "Bell peppers",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151051775428"
 		},
 		{
 			"footprint": 4.87,
 			"image": "pulled_pork",
 			"name": "Pulled pork",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/133081602314"
 		},
 		{
 			"footprint": 2.26,
 			"image": "apple_pie",
 			"name": "Apple pie",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125023802270"
 		},
 		{
 			"footprint": 0.38,
 			"image": "carrots",
 			"name": "Carrots",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125567384019"
 		},
 		{
 			"footprint": 8.65,
 			"image": "protein_bar",
 			"name": "Protein bar",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125311580843"
 		},
 		{
 			"footprint": 1.12,
 			"image": "ketchup",
 			"name": "Ketchup",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/126110965768"
 		},
 		{
 			"footprint": 0.31,
 			"image": "mushrooms",
 			"name": "Mushrooms, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/126654547517"
 		},
 		{
 			"footprint": 1.54,
 			"image": "foam_sweets",
 			"name": "Foam sweets",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/84830728241"
 		},
 		{
 			"footprint": 1.56,
 			"image": "lentils",
 			"name": "Lentils (dry)",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/87740489368"
 		},
 		{
 			"footprint": 1.14,
 			"image": "canned_pineapple",
 			"name": "Canned pineapple w. juice",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/84223195698"
 		},
 		{
 			"footprint": 1.07,
 			"image": "pasta",
 			"name": "Pasta (dry)",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/78563550429"
 		},
 		{
 			"footprint": 1.37,
 			"image": "pasta",
 			"name": "Pasta w. egg (dry)",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/78595525826"
 		},
 		{
 			"footprint": 20.40,
 			"image": "shrimps",
 			"name": "Prawns/shrimps, peeled, frozen",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/79394910751"
 		},
 		{
 			"footprint": 3.83,
 			"image": "chicken_kebab",
 			"name": "Chicken kebab",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/155336478626"
 		},
 		{
 			"footprint": 1.57,
 			"image": "grapes",
 			"name": "Grapes",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/150923873840"
 		},
 		{
 			"footprint": 2.29,
 			"image": "tomato_puree",
 			"name": "Tomato purée",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152074988132"
 		},
 		{
 			"footprint": 1.91,
 			"image": "canned_sweetcorn",
 			"name": "Canned sweetcorn kernels",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151883135750"
 		},
 		{
 			"footprint": 14.40,
 			"image": "blue_cheese",
 			"name": "Blue cheese",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153385979409"
 		},
 		{
 			"footprint": 26.00,
 			"image": "roasted_cashew",
 			"name": "Roasted cashew, natural",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125727261004"
 		},
 		{
 			"footprint": 0.45,
 			"image": "strawberries",
 			"name": "Strawberries, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125183679255"
 		},
 		{
 			"footprint": 14.80,
 			"image": "butter",
 			"name": "Butter, 80% fat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125087753064"
 		},
 		{
 			"footprint": 0.75,
 			"image": "chickpeas",
 			"name": "Chickpeas, dry",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/87580612383"
 		},
 		{
 			"footprint": 3.41,
 			"image": "cod",
 			"name": "Atlantic cod, fresh, whole fish",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/79874541706"
 		},
 		{
 			"footprint": 2.59,
 			"image": "chicken_meat",
 			"name": "Chicken meat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/79842566309"
 		},
 		{
 			"footprint": 12.5,
 			"image": "cheese1",
 			"name": "Soft cheese from cow milk",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/76165395654"
 		},
 		{
 			"footprint": 7.19,
 			"image": "cream1",
 			"name": "Cream 40% fat 0.5L",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/75909592478"
 		},
 		{
 			"footprint": 3.29,
 			"image": "cream1",
 			"name": "Cream 15% fat 0.5L",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/76005518669"
 		},
 		{
 			"footprint": 5.20,
 			"image": "milk",
 			"name": "Cream 27% fat 0.5L",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/3518476759689"
 		},
 		{
 			"footprint": 0.75,
 			"image": "spinach",
 			"name": "Spinach, frozen",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151755234162"
 		},
 		{
 			"footprint": 4.16,
 			"image": "chicken_nuggets_frozen",
 			"name": "Chicken nuggets, frozen",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/155080675450"
 		},
 		{
 			"footprint": 3.24,
 			"image": "olive_oil",
 			"name": "Olive oil, 0.75l glass bottle",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152522643690"
 		},
 		{
 			"footprint": 2.35,
 			"image": "cucumber",
 			"name": "Cucumber, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/150987824634"
 		},
 		{
 			"footprint": 0.77,
 			"image": "green_peas",
 			"name": "Green peas, frozen",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/126206891959"
 		},
 		{
 			"footprint": 1.40,
 			"image": "honey",
 			"name": "Honey",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/124927876079"
 		},
 		{
 			"footprint": 1.22,
 			"image": "milk",
 			"name": "Milk 1.5% fat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/78915279796"
 		},
 		{
 			"footprint": 1.51,
 			"image": "milk",
 			"name": "Milk 1.5% fat (2cl pack)",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/2972177101944"
 		},
 		{
 			"footprint": 1.46,
 			"image": "milk",
 			"name": "Milk 3% fat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/78947255193"
 		},
 		{
 			"footprint": 0.25,
 			"image": "potatoes",
 			"name": "Potatoes",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/79618738530"
 		},
 		{
 			"footprint": 4.19,
 			"image": "minced_beef",
 			"name": "Ground pork, 20% fat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/155752158787"
 		},
 		{
 			"footprint": 4.12,
 			"image": "hard_biscuits",
 			"name": "Hard biscuits",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/154792896877"
 		},
 		{
 			"footprint": 1.40,
 			"image": "bottle3",
 			"name": "Beer, 33 cl glass bottle",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/153194127027"
 		},
 		{
 			"footprint": 0.68,
 			"image": "spinach",
 			"name": "Spinach, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151595357177"
 		},
 		{
 			"footprint": 1.32,
 			"image": "cantaloupe",
 			"name": "Cantaloupe (melon), whole fruit",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151083750825"
 		},
 		{
 			"footprint": 0.22,
 			"image": "beetroot",
 			"name": "Beetroot, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151627332574"
 		},
 		{
 			"footprint": 0.74,
 			"image": "lettuce",
 			"name": "Lettuce, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151339554001"
 		},
 		{
 			"footprint": 2.08,
 			"image": "mango",
 			"name": "Mango, whole fruit",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151115726222"
 		},
 		{
 			"footprint": 0.81,
 			"image": "broccoli",
 			"name": "Broccoli, frozen",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125983064180"
 		},
 		{
 			"footprint": 2.54,
 			"image": "raisins",
 			"name": "Raisins",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125343556240"
 		},
 		{
 			"footprint": 0.44,
 			"image": "dry_onion",
 			"name": "Dry onion",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125631334813"
 		},
 		{
 			"footprint": 2.89,
 			"image": "peanut_butter",
 			"name": "Peanut butter, glass jar",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/125535408622"
 		},
 		{
 			"footprint": 0.16,
 			"image": "cabbage",
 			"name": "Cabbage, fresh",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/85214433005"
 		},
 		{
 			"footprint": 1.15,
 			"image": "cream1",
 			"name": "Oat cream (dairy-free cream substitute)",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/80290221867"
 		},
 		{
 			"footprint": 2.83,
 			"image": "cream1",
 			"name": "Custard 10% fat 0.25L",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/3046232121396"
 		},
 		{
 			"footprint": 5.98,
 			"image": "cream1",
 			"name": "Creme Fraiche 32% fat 0.2L",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/3046104219808"
 		},
 		{
 			"footprint": 0.88,
 			"image": "wheat_flour",
 			"name": "Wheat flour, consumer package",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/78531575032"
 		},
 		{
 			"footprint": 0.39,
 			"image": "soy_drink",
 			"name": "Soy drink, 1L",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152842397660"
 		},
 		{
 			"footprint": 2.23,
 			"image": "margarine",
 			"name": "Margarine, 80% fat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152874373057"
 		},
 		{
 			"footprint": 1.11,
 			"image": "chicken_liver_pate",
 			"name": "Chicken liver pate",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/155592281802"
 		},
 		{
 			"footprint": 0.31,
 			"image": "bottle4",
 			"name": "Water, 1L PET bottle",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152490668293"
 		},
 		{
 			"footprint": 2.39,
 			"image": "bottle5",
 			"name": "Rapeseed oil, bottled 1l",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152106963529"
 		},
 		{
 			"footprint": 2.62,
 			"image": "bottle5",
 			"name": "Sunflower seed oil, bottled 1l",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/152234865117"
 		},
 		{
 			"footprint": 1.02,
 			"image": "rye_flour",
 			"name": "Rye flour",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/151979061941"
 		},
 		{
 			"footprint": 0.50,
 			"image": "oranges",
 			"name": "Oranges, whole fruit",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/124767999094"
 		},
 		{
 			"footprint": 0.32,
 			"image": "apples",
 			"name": "Apples, whole fruit",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/109259931549"
 		},
 		{
 			"footprint": 20.2,
 			"image": "cheese1",
 			"name": "Cheddar cheese, aged 12 months",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/76197371051"
 		},
 		{
 			"footprint": 1.06,
 			"image": "bread",
 			"name": "Soft bread, wheat",
-			"source": "SE"
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/78211821062"
+		},
+		{
+			"footprint": 2.3,
+			"image": "cheese1",
+			"name": "Vegan cheese",
+			"source": "SE",
+			"link": "https://apps.carboncloud.com/climatehub/product-reports/id/126302818150"
 		}
 	]
 }

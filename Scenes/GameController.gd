@@ -31,8 +31,8 @@ func product_chose(product):
 		return
 	
 	Global.state = "chose"
-	correct_product.footprint_label_correct.show()
-	wrong_product.footprint_label_wrong.show()
+	correct_product.footprint_link_correct.show()
+	wrong_product.footprint_link_wrong.show()
 	
 	if (product == correct_product):
 		$SuccessSprite.visible = true
@@ -63,6 +63,9 @@ func new_products() -> void:
 	
 	product1.product_name = product1_data.name
 	product2.product_name = product2_data.name
+	
+	product1.external_link = product1_data.link
+	product2.external_link = product2_data.link
 	
 	var image_path = "res://ProductImages/"
 

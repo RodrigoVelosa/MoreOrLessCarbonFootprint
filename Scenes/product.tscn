@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://rf0b77qgwcqn"]
+[gd_scene load_steps=5 format=3 uid="uid://rf0b77qgwcqn"]
 
 [ext_resource type="Script" path="res://Scenes/product.gd" id="1_0xqwd"]
 [ext_resource type="Texture2D" uid="uid://cbxil8d2jghne" path="res://ProductImages/almond.webp" id="2_q6kn7"]
@@ -9,16 +9,6 @@ font_size = 30
 font_color = Color(0, 0, 0, 1)
 outline_size = 3
 outline_color = Color(0, 0, 0, 1)
-
-[sub_resource type="LabelSettings" id="LabelSettings_db7bt"]
-font_size = 18
-font_color = Color(0.812098, 0.274831, 0.255398, 1)
-outline_color = Color(0.811765, 0.27451, 0.254902, 1)
-
-[sub_resource type="LabelSettings" id="LabelSettings_mnpy2"]
-font_size = 18
-font_color = Color(0.604689, 0.738817, 0.292812, 1)
-outline_color = Color(0.603922, 0.737255, 0.294118, 1)
 
 [node name="Product" type="Node2D"]
 script = ExtResource("1_0xqwd")
@@ -37,25 +27,31 @@ label_settings = SubResource("LabelSettings_geokm")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="FootprintLabelWrong" type="Label" parent="."]
+[node name="FootprintLinkWrong" type="LinkButton" parent="."]
+offset_left = -47.0
+offset_top = 240.0
+offset_right = 56.0
+offset_bottom = 263.0
+size_flags_horizontal = 8
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(1, 0.28362, 0.0777, 1)
+theme_override_colors/font_focus_color = Color(1, 0.553491, 0.444408, 1)
+theme_override_colors/font_hover_color = Color(1, 0.552941, 0.443137, 1)
+theme_override_font_sizes/font_size = 18
+
+[node name="FootprintLinkCorrect" type="LinkButton" parent="."]
 offset_left = -129.0
 offset_top = 240.0
-offset_right = 129.0
-offset_bottom = 268.0
-label_settings = SubResource("LabelSettings_db7bt")
-horizontal_alignment = 1
-vertical_alignment = 1
+offset_right = -26.0
+offset_bottom = 263.0
+size_flags_horizontal = 8
+size_flags_vertical = 8
+theme_override_colors/font_color = Color(0, 0.741176, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0.892672, 2.31028e-06, 1)
+theme_override_colors/font_hover_color = Color(0.854902, 0.866667, 0.596078, 1)
+theme_override_font_sizes/font_size = 18
 
-[node name="FootprintLabelCorrect" type="Label" parent="."]
-offset_left = -129.0
-offset_top = 240.0
-offset_right = 129.0
-offset_bottom = 268.0
-label_settings = SubResource("LabelSettings_mnpy2")
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Button" type="Button" parent="."]
+[node name="AuxButton" type="Button" parent="."]
 offset_left = -151.0
 offset_top = -160.0
 offset_right = 153.0
@@ -64,4 +60,4 @@ focus_mode = 0
 flat = true
 script = ExtResource("2_wclhy")
 
-[connection signal="button_up" from="Button" to="Button" method="_on_button_up"]
+[connection signal="button_up" from="AuxButton" to="AuxButton" method="_on_button_up"]
